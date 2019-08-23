@@ -1,0 +1,3 @@
+build:
+	yarn workspace site build
+	GOBIN=${PWD}/netlify-functions go install ./...
